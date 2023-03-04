@@ -110,7 +110,7 @@ K.clear_session();
 ````
 
 ## Features
-Our model was able to predict the 31 characters in the ASL with a prediction accuracy > 84.65%.
+Our model was able to predict the 31 characters in the ASL with a prediction accuracy > 84.19%.
 
 Features that can be added:
 * Deploy the project on cloud and create an API for using it.
