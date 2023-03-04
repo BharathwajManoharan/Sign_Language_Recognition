@@ -1,6 +1,5 @@
-## Sign-Language-Recognition-DL-Project-1
+## Sign-Language-Recognition-DL-Project
 > A sign language interpreter using live video feed from the camera. 
-> This is one of those projects i worked hard to understand and replicate with the dataset I had.
 
 ## Technologies and Tools
 * Python 
