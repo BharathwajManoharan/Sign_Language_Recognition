@@ -1,4 +1,4 @@
-## Sign-Language-Recognition(DL Project)
+## Sign-Language-Recognition-Project
 > A sign language interpreter using live video feed from the camera. 
 
 ## Technologies and Tools
