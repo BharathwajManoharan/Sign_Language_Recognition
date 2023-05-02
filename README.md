@@ -7,23 +7,25 @@
 * Keras
 * OpenCV
 
-## Setup
-* Use comand promt to setup environment by using install_packages.txt and install_packages_gpu.txt files. 
- 
-`pyton -m pip r install_packages.txt`
+## Installation
 
-This will help you in installing all the libraries required for the project.
+* To set up the environment, run the following command in the command prompt:
+ 
+	`pyton -m pip r install_packages.txt`
+
+For GPU support, use install_packages_gpu.txt instead.
 
 ## Process
 
-* Run `set_hand_histogram.py` to set the hand histogram for creating gestures. 
-* Once you get a good histogram, save it in the code folder.
-* Added gestures and label them using OpenCV which uses webcam feed. by running `create_gestures.py` and stores them in a database.
-* Add different variations to the captured gestures by flipping all the images by using `Rotate_images.py`.
-* Run `load_images.py` to split all the captured gestures into training, validation and test set. 
-* To view all the gestures, run `display_gestures.py` .
-* Train the model using Keras by running `cnn_model_train.py`.
-* Run `final.py`. This will open up the gesture recognition window which will use your webcam to interpret the trained American Sign Language gestures.
+* Set the hand histogram for creating gestures by running set_hand_histogram.py.
+* Save the histogram in the code folder.
+* Label the captured gestures using OpenCV and store them in a database by running create_gestures.py.
+* Add different variations to the captured gestures by flipping all the images using Rotate_images.py.
+* Split all the captured gestures into training, validation, and test sets by running load_images.py.
+* View all the gestures using display_gestures.py.
+* Train the model using Keras by running cnn_model_train.py.
+* Run final.py to open the gesture recognition window, which will use your webcam to interpret the trained American Sign Language gestures.
+
 ## Code Examples
 
 ````
