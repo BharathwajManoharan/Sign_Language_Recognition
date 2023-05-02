@@ -1,7 +1,7 @@
 h5py
 numpy
 scikit-learn
-tensorflow-gpu
+tensorflow
 keras
 opencv-python
 pyttsx3
